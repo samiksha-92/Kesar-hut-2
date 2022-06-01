@@ -301,7 +301,9 @@ body {
 
 #contactUs{
     padding: 25px;
+    margin-top: 20px;
 }
+
 
 #contactRow {
     display:flex;
@@ -316,6 +318,10 @@ body {
      direction: column;
      flex:1;
      align-items: center;
+
+ }
+
+ #contactCol h2{padding:25px 0px;
 
  }
 
