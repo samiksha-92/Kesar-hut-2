@@ -26,6 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding:0 40px;
 }
 
 #hero::before {
@@ -43,28 +44,27 @@ body {
     filter: brightness(60%);
 }
 
-#hero-content {
+#heroContent {
     position: relative;
 }
 
-#hero-content h1 {
+#heroContent h1 {
     color: white;
     font: size 2.8em;
     text-shadow: 2px 2px 2px #000;
 }
 
-#hero-content h2 {
+#heroContent h2 {
     color: white;
-    font-size: 2rem font-family:cursive;
-    margin-top: 1rem;
+    font-size: 2rem;
     margin-bottom: 4rem;
     text-shadow: 2px 2px 2px #000;
 }
 
-#hero-content a {
+#heroContent a {
     color: white;
     font-size: 1.8rem;
-    padding: 3px 20px;
+    padding: 3px 20px 3px 20px;
     border: 1px solid orange;
     background: rgb(0, 0, 0, 0.6);
     font: size 1.5rem;
@@ -73,7 +73,7 @@ body {
 
 }
 
-#hero-content a:hover {
+#heroContent a:hover {
     background-color: navy;
 }
 
@@ -102,6 +102,7 @@ body {
 
 #navbar ul {
     display: flex;
+    direction: row;
 }
 
 #navbar ul li {
@@ -120,37 +121,37 @@ body {
 #navbar ul li a {
     text-decoration: none;
     color: white;
-    font-size 1.1rem;
+    font-size: 1.1rem;
 }
 
 #phone a {
     text-decoration: none;
     color: white;
-    font-size 1.1rem;
+    font-size: 1.1rem;
     padding: 3px 15px;
     border: 1px solid orange;
 }
 
 
-#mobile-menu {
-    display: none;
+#mobileMenu {
+    display: flex;
     line-height: 40px;
     height: 40px;
     background-color: magenta;
 }
 
-#mobile-menu ul {
+#mobileMenu ul {
     display: flex;
  flex-direction: row;
 
 }
 
-#mobile-menu ul li {
+#mobileMenu ul li {
     list-style: none;
     padding: 0px 5px;
 }
 
-#mobile-menu ul li a {
+#mobileMenu ul li a {
     text-decoration: none;
     color: white;
 }
@@ -159,11 +160,12 @@ body {
 /** media queries for mobile friendly design **/
 
 @media screen and (max-width:768px) {
-    #mobile-menu {
-        display: flex;
-        direction:row;
-        justify-content: space-between;
+    #header{position: absolute;}
+
+    #mobileMenu {
+        display:block;
     }
+        
 
     #navbar ul {
         display: none;
@@ -173,7 +175,7 @@ body {
         font-size: 95%;
     }
 
-    #menu-row,#about-row{
+    #menuRow,#aboutRow{
         flex-wrap: wrap;
         padding:0px 10px;
     }
@@ -183,16 +185,29 @@ body {
 /** for screen smaller than 360px **/
 @media screen and (max-width:360px){
     html{font: size 70%;}
-#about-image{
+#aboutImage{
     width:200px;
     height:200px;
 }
-/**media queries end here **//
+}
 
-/** menu section styling **//
+
+
+
+
+  
+   
+
+
+
+
+/**media queries end here **/
+
+/** menu section styling **/
 #menu{
     padding: 25px 0px;
     color:#000;
+    align-items: center;
 }
 
 #section{padding: 25px 0px;
@@ -202,26 +217,23 @@ body {
     
 }
 
-#menu-row{
+#menuRow{
     display:flex;
     padding:0px 100px;
 }
 
-#menu-column{
+#menuColumn {
     box-shadow: 2px 2px 2px #bbb;
     border:1px solid #bbb;
     margin:5px;
     color:#000;
 }
 
-#menu-column h2{
+#menuColumn h2 {
     background-color: orange;
     text-align:center;
     color: white
-    padding: 10px;
-    font-family:cursive;
-    flex:1 100%;
-    margin:10px;
+
 }
 
 #image{
@@ -245,13 +257,14 @@ body {
     text-align:center;
     margin:5px;
 }
+/** Menu section styling ends here **/
 
-/** About us section styling **/
+/** About us section styling begins **/
 #about{
     padding:25px 0px;
 }
 
-#about-row{
+#aboutRow{
     display:flex;
     align-items:center;
     flex-wrap: wrap;
@@ -260,18 +273,18 @@ body {
 
 }
 
-.about-column{
+.aboutColumn{
     flex:1 100;
 }
 
-#about-image{
+#aboutImage{
     width:300px;
     height:300px;
     border-radius: 50%;
     border: 1px solid orange;
 
 }
-#about-image img{
+#aboutImage img{
     width:100%;
     height:100%;
     border-radius: 60%;
@@ -280,12 +293,43 @@ body {
 
 }
 
-.about-column h1{
+.aboutColumn h1{
     font-family:cursive;
     text-align:center;
 }
-.about-column h1 p{
+.aboutColumn h1 p{
     font-family:cursive;
     text-align:center;
     font-weight:bold;
 }
+/** About us section styling ends here **/
+
+/** Contact us section styling begins **/
+
+#contactUs{
+    padding: 25px;
+}
+
+#contactRow {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0px 100px;
+    flex-wrap: wrap;
+    flex-direction: column;}
+
+ #contactCol{
+     display:flex;
+     direction: column;
+     flex:1;
+     align-items: center;
+
+ }
+
+    .submitButton{
+        margin:auto;
+        padding:10px;
+        color:white;
+        background-color: orange;
+
+    }
