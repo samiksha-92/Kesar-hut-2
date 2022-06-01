@@ -149,8 +149,8 @@ body {
 #mobileMenu ul li {
     list-style: none;
     padding: 0px 5px;
-    display: flex;
-    direction: row;
+    display: inline;
+    
 }
 
 #mobileMenu ul li a {
@@ -355,3 +355,5 @@ body {
         font-size:1rem;
 
     }
+
+    /** footer section styling ends **/
