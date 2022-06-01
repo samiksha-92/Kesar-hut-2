@@ -79,7 +79,7 @@ body {
 
 /** header section styling **/
 #header {
-    position: fixed;
+    position: absolute;
     top: 0px;
     width: 100vw;
     height: 70px;
@@ -134,7 +134,7 @@ body {
 
 
 #mobileMenu {
-    display: flex;
+    display: none;
     line-height: 40px;
     height: 40px;
     background-color: magenta;
@@ -142,13 +142,15 @@ body {
 
 #mobileMenu ul {
     display: flex;
- flex-direction: row;
+ margin:auto;
 
 }
 
 #mobileMenu ul li {
     list-style: none;
     padding: 0px 5px;
+    display: flex;
+    direction: row;
 }
 
 #mobileMenu ul li a {
@@ -190,15 +192,6 @@ body {
     height:200px;
 }
 }
-
-
-
-
-
-  
-   
-
-
 
 
 /**media queries end here **/
@@ -331,5 +324,34 @@ body {
         padding:10px;
         color:white;
         background-color: orange;
+
+    }
+
+    /** Contact us section styling ends here **/
+
+    /** Footer section begins **/
+
+    #footer{
+        position:relative;
+        height: fit-content;
+        padding:20px;
+        background-color: #292929;
+    }
+
+    #footer h5{
+        text-align:center;
+        color:orange;
+
+    }
+
+    #top{
+        position:absolute;
+        bottom:12px;
+        top:12px;
+    }
+
+    #top a{
+        color:white;
+        font-size:1rem;
 
     }
