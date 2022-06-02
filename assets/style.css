@@ -102,7 +102,7 @@ body {
 
 #navbar ul {
     display: flex;
-    direction: row;
+    justify-content: space-around;
 }
 
 #navbar ul li {
@@ -141,21 +141,19 @@ body {
 }
 
 #mobileMenu ul {
-    display: flex;
- margin:auto;
+    display:flex;
+justify-content:center;
+} 
 
-}
 
 #mobileMenu ul li {
     list-style: none;
     padding: 0px 5px;
-    display: inline;
-    
 }
 
 #mobileMenu ul li a {
     text-decoration: none;
-    color: white;
+    color: white; 
 }
 
 
@@ -165,7 +163,8 @@ body {
     #header{position: absolute;}
 
     #mobileMenu {
-        display:block;
+        display:flex;
+        justify-content: space-around;
     }
         
 
