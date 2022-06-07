@@ -111,7 +111,7 @@ body {
 }
 
 #navbar ul li:hover,
-#phone a:hover,
+#phone a:hover,#mobileMenu ul li:hover
 #mobile-menu ul li:hover {
     background: navy;
     cursor: pointer;
@@ -149,6 +149,7 @@ justify-content:center;
 #mobileMenu ul li {
     list-style: none;
     padding: 0px 5px;
+    text-decoration: none;
 }
 
 #mobileMenu ul li a {
