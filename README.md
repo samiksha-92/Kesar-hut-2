@@ -1,108 +1,76 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Samiksha,
+<h1> Kesar's Hut Website </h1>
+Kesar's hut is a website designed to educate visitors about the restaurant. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for website visitors.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<hr>
+<ul><h2><bold>User Stories</h2></bold>
+<li><h3> First Time Visitor Goals </h3>
+<ol> 
+<li>As a first time visitor, I want to learn about the restaurant, and understand the purpose of this restaurant.</li>
+<li>As a firt time visitor, I want to be able to navigate easily throughout the website and find information regarding the cuisine, main dishes and how to fill the form to book a table successfuly.</li>
+<li>As a first time visitor I want to see their social media links to determine how trusted they are and to see people's reactions to their restaurant on social media.</li>
+</ol>
+</li>
+<li>
+<h3> Returning Visitor Goals</h3>
+<ol>
+<li>As a returning visitor, I want to I want to know the best way possible to get in touch with the restaurant.</li>
+<li>As a returning visitor, I want to see the menu items and their prices and the timings of the restaurant. </li>
+<li>As a returning visitor, I want to see the social media links to check how trustworthy this restaurant is. </li>
+</ol>
+</li>
+<li> 
+<h3>Frequent Visitor Goals </h3>
+<ol>
+<li>As a frequenr visitor, I want to check their website for timing updates, menu updates and to check new ways of contacting them to make a reservation.</li>
+</ol>
+</li>
+</ul>
+<hr>
+<ul><h2><bold> Design </h2> </bold>
+<li><ul>
+<h3>Color Scheme</h3>
+<li> The 2 main colors used are black and orange for a pleasant contrast effect. </li>
+</li> 
+</ul>
+<li><ul><h3><bold>Typography </h3></bold>
+<li>Poppins font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.</li>
+</ul>
+<li><ul><h3><bold>Imagery</h3></bold>
+<li>The background image in the hero section is chosen with brightness set to 60% so that the call to action "Menu" is clearly visible while maintaining the aesthetic appeal of the header section.
+</ul>
+</ul>
+<hr>
+<ul><h2><bold>Features</bold></h2>
+<li><ul><bold><h3> Existing features:</h3>
+<li><ul><bold>Header section with Navigation Bar and Hero Image:</bold>
+<li>This section consists of the Logo, Navigation bar, contact number and the hero image background with a call-to-action 'Menu'</li>
+<li>This section welcomes the user to the website with an eye catching background image to grab their attention</li>
+<li> The fully responsive navigation bar in will allow the users to easily navigate through the different sections like 'Home' 'About us' 'Menu' and 'Contact Us'.</li>
+<img src="assets/images/Screenshots/Navbar & Hero Image.png">
+</ul> </li>
+<br>
+<li><ul><bold>Menu Section:</bold>
+<li>This section will proivde the users with the different menu items for breakfast, lunch and dinner.</li>
+<li>The users will also see other important information like the time of the kitchen for breakfast, lunch, dinner and the price for each dish in the menu item.</li>
+<li>The images for each dish in the menu item provides a visual representation of what to expect from the dish. </li>
+<img src="assets/images/Screenshots/Menu.png .png">
+</ul></li>
+<br>
+<li><ul><bold>About us Section:</bold>
+<li>This section explains the unique selling point of this restaurant to the user.</li>
+<li>This section also explains the target users for this restaurant website. i.e indian community living in amsterdam who miss authentic delicious food from their homeland.</li>
+<img src="assets/images/Screenshots/Screenshot about us.png">
+</ul></li>
+<br>
+<li><ul><bold>Contact us Section:</bold>
+<li> This section provides the user with different ways to contact the restaurant. </li>
+<li> It also provides the social links to provide social validation and increase trustworthiness of this restaurant.</li>
+<li>It provides the contact form so that the user can easily fill in the details and make a reservation at the restaurant. </li>
+<img src="assets/images/Screenshots/Contact us Screenshot.png">
+</ul></li>
+<br>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
