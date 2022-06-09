@@ -2,8 +2,9 @@
 <h1> Kesar's Hut Website </h1>
 Kesar's hut is a website designed to educate visitors about the restaurant. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for website visitors.
 
-<hr>
+<br>
 <ul><h2><bold>User Stories</h2></bold>
+<hr>
 <li><h3> First Time Visitor Goals </h3>
 <ol> 
 <li>As a first time visitor, I want to learn about the restaurant, and understand the purpose of this restaurant.</li>
@@ -26,8 +27,9 @@ Kesar's hut is a website designed to educate visitors about the restaurant. It i
 </ol>
 </li>
 </ul>
-<hr>
+<br>
 <ul><h2><bold> Design </h2> </bold>
+<hr>
 <li><ul>
 <h3>Color Scheme</h3>
 <li> The 2 main colors used are black and orange for a pleasant contrast effect. </li>
@@ -40,8 +42,9 @@ Kesar's hut is a website designed to educate visitors about the restaurant. It i
 <li>The background image in the hero section is chosen with brightness set to 60% so that the call to action "Menu" is clearly visible while maintaining the aesthetic appeal of the header section.
 </ul>
 </ul>
-<hr>
+<br>
 <ul><h2><bold>Features</bold></h2>
+<hr>
 <li><ul><bold><h3> Existing features:</h3>
 <li><ul><bold>Header section with Navigation Bar and Hero Image:</bold>
 <li>This section consists of the Logo, Navigation bar, contact number and the hero image background with a call-to-action 'Menu'</li>
@@ -70,6 +73,60 @@ Kesar's hut is a website designed to educate visitors about the restaurant. It i
 <img src="assets/images/Screenshots/Contact us Screenshot.png">
 </ul></li>
 <br>
+<h2><bold>Technology Used</bold></h2>
+<hr>
+<h3><bold></bold>Languages Used:<bold></h3>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+</ul></li>
+<br>
+<h3><bold>Frameworks, Libraries & Program Used:</bold></h3>
+<ol>
+<li><a href= "https://fonts.google.com/" target= "_blank">Google Fonts</a>   
+<ul>
+<li>Google Fonts were used to import 'Poppins' font which was used on all pages of the website.</li>
+</ul>
+</li>
+<li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+<ul>
+<li>Font awesome was used to add fonts in the contact us section.</li>
+</ul>
+</li>
+<li> <a href="https://www.gitpod.io/"
+target="_blank" >Gitpod</a>
+<ul>
+<li>Gitpod was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>
+</ul></li>
+<li><a href="https://balsamiq.com/" target="_blank">Balsamiq</a>
+<ul>
+<li>Balsamiq was used to create the wireframes during the initial design process for this website.
+
+<br>
+<h2><bold>Testing</bold></h2>
+<hr>
+The W3C Markup Validator and W3C CSS Validator Services were used to validate this website. The purpose of testing was to check for syntax errors in the languages used.
+
+<ul>
+<li><a href="https://validator.w3.org/" target= "_blank">W3C Markup Validator</a></li>
+<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C Markup CSS Validator</a></li>
+</ul>
+
+<br>
+<h2><bold>Testing User Stories</bold></h2>
+<ol>
+<li>As a first time visitor, I want to learn about the restaurant, and understand the purpose of this restaurant.
+<ol type="a">
+<li>Upon entering the website the user is greeted with a hero background image of a restaurant with text of "Authentic,Aromatic Delicious Indian Food". On the top left corner, the user can see the name of the restaurant.
+
+
+
+
+
+
+
+
+
 
 
 

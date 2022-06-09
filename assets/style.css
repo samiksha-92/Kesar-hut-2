@@ -266,7 +266,7 @@ justify-content:center;
     justify-content: center;
     align-items:center;
     padding: 0px 100px;
-    flex-wrap:no wrap;
+    flex-wrap: wrap;
     flex-direction: column;}
 
  .contactCol{
@@ -294,12 +294,12 @@ justify-content:center;
         text-align:center;
         color:orange;
     }
-    #top{
+    #topButton{
         position:absolute;
         bottom:12px;
         top:12px;
     }
-    #top a{
+    #topButton a{
         color:white;
         font-size:1rem;
     }
