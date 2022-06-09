@@ -8,7 +8,7 @@ Kesar's hut is a website designed to educate visitors about the restaurant. It i
 <li><h3> First Time Visitor Goals </h3>
 <ol> 
 <li>As a first time visitor, I want to learn about the restaurant, and understand the purpose of this restaurant.</li>
-<li>As a firt time visitor, I want to be able to navigate easily throughout the website and find information regarding the cuisine, main dishes and how to fill the form to book a table successfuly.</li>
+<li>As a firt time visitor, I want to be able to navigate easily throughout the website and find information regarding the cuisine, main dishes and how to fill the form to book a table successfully.</li>
 <li>As a first time visitor I want to see their social media links to determine how trusted they are and to see people's reactions to their restaurant on social media.</li>
 </ol>
 </li>
@@ -114,10 +114,33 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 <br>
 <h2><bold>Testing User Stories</bold></h2>
-<ol>
-<li>As a first time visitor, I want to learn about the restaurant, and understand the purpose of this restaurant.
+<ul>
+<li>First Time Visitor Goals
 <ol type="a">
-<li>Upon entering the website the user is greeted with a hero background image of a restaurant with text of "Authentic,Aromatic Delicious Indian Food". On the top left corner, the user can see the name of the restaurant.
+<li>As a first time visitor, I want to learn about the restaurant, and understand the purpose of this restaurant.
+<ol>
+<li>Upon entering the website the user is greeted with a hero background image of a restaurant with text of "Authentic,Aromatic Delicious Indian Food". </li>
+<li>On the top left corner, the user can see the name of the restaurant.</li>
+<li>The user has the option to explore the dishes in the menu by clicking on "Menu".</li>
+</ol></li>
+<li>As a firt time visitor, I want to be able to navigate easily throughout the website and find information regarding the cuisine, main dishes and how to fill the form to book a table successfuly.
+<ol type="1">
+<li>The website has a clear navigation bar with links that correspond to sections that apppear in the same order on the website.</li>
+<li>The Menu section clearly defines the various dishes, prices and the time.</li>
+<li>When clicked on the "About us" link from the navigation bar, the user can learn more about the culture of the restaurant.</li>
+<li>When clicked on the "Contact us" link in the navigation bar. the user sees the location of the restaurant.email, contact number, along with social media links which are clickable and taakes the user to kesar's hit social media profiles.
+<li>All external links open in a new tab, so that the user's experience is smooth throughout the website.</li>
+<li>The user can fill in the form easily and wait for the confirmation message from the restaurant.</li>
+<li>Alternatively, there is a phone number mentioned in the navigation bar, if the user is in a hurry with the restaurant and does not wish to communicate via email or by filling the form.</li>
+</ol></li>
+<li>As a first time visitor I want to see their social media links to determine how trusted they are and to see people's reactions to their restaurant on social media.
+<ol type="1">
+<li>In the contact us section the user can click on the facebook & Instagram icons' to visit their social media profiles.</li>
+</ol></li></ul>
+<li>As a returning visitor, I want to I want to know the best way possible to get in touch with the restaurant.</li>
+
+
+
 
 
 
