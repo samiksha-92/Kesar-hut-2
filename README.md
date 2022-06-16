@@ -1,4 +1,5 @@
-
+<a href="https://samiksha-92.github.io/Kesar-hut-2/" target="_blank"> View the live project here.</a>
+<img src="assets/images/Screenshots/Site responsiveness image.png">
 <h1> Kesar's Hut Website </h1>
 Kesar's hut is a website designed to educate visitors about the restaurant. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for website visitors.
 
@@ -105,21 +106,20 @@ target="_blank" >Gitpod</a>
 <br>
 <h2><bold>Testing</bold></h2>
 <hr>
-The W3C Markup Validator and W3C CSS Validator Services were used to validate this website. The purpose of testing was to check for syntax errors in the languages used.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate this website. The purpose of testing was to check for syntax errors in the languages. There were errors displayed in the initial testing. The main error was "use of id attritube in place of class attribute". These errors were fixed and upon final testing there were no errors found.
 
 <ul>
-<li><a href="https://validator.w3.org/" target= "_blank">W3C Markup Validator</a></li>
-<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C Markup CSS Validator</a></li>
+<li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamiksha-92.github.io%2FKesar-hut-2%2F" target= "_blank">W3C Markup HTML Validator Results</a></li>
+<li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsamiksha-92.github.io%2FKesar-hut-2%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=nl/" target="_blank">W3C Markup CSS Validator Results</a></li>
 </ul>
 <br>
 <ul>
 <h3>Further Testing</h3>
 <li>The website was tested on Google Chrome, Safari browsers.</li>
 <li>Testing was done to make sure user stories goals' were achieved.</li>
-<li>The website was viewed on desktop, laptop, and mobile devices (iphone 8, iPhone12, iPhone13 )</li>
+<li>The website was viewed on desktop, laptop, and mobile devices (iphone 8, iPhone12, iPhone13)</li>
 </ul>
 <br>
-
 <ul>
 <h3>Known Bugs</h3>
 <li>For some mobile devices, laptop and desktop devices, a white gap can be seen on the right of the navigation bar and footer.</li>
@@ -127,6 +127,68 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 <br>
 <h2><bold>Deployment</bold></h2>
 <hr>
+The website was deployed using Github pages using the following steps:
+<ol type="1">
+<li>Log in to GitHub and locate the GitHub Repository.</li>
+<li>At the top of the Repository (not top of page), locate the "Settings" Button on the menu.</li>
+<li>Scroll down the Settings page until you locate the "GitHub Pages" Section.</li>
+<li>Under "Source", click the dropdown called "None" and select "Master Branch".</li>
+<li>The page will automatically refresh.</li>
+<li>Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.</li>
+</ol>
+<br>
+<h3><bold>Forking the repository Github Repository</h3></bold>
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps below
+<ol type= "1">
+<li>Log in to GitHub and locate the GitHub Repository</li>
+<li>At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.</li>
+<li>You should now have a copy of the original repository in your GitHub account.</li>
+</ol>
+<br>
+<h3><bold> Making a Local Clone </h3></bold>
+<ol type="1">
+<li>Log in to GitHub and locate the <a href="https://github.com/samiksha-92/Kesar-hut-2" target="_blank">Github Repository</a></li>
+<li>Under the repository name, click "Clone or download".</li>
+<li>To clone the repository using HTTPS, under "Clone with HTTPS", and copy the link.</li>
+<li>Open Git Bash</li>
+<li>Change the current working directory to the location where you want the cloned directory to be made.</li>
+<li>Type <code>git clone </code>, and then paste the url copied in step 3. <br>
+<code>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</code></li>
+<li>
+Press Enter. Your local clone will be created.<br>
+<code> $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done. <br>
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+</code></li>
+</ol><br>
+<a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop" target="_blank"> Click here</a> to see detailed instructions with images.
+<br> <br>
+<h2><bold>Credits</bold></h2>
+<hr>
+<h3><bold> Code </h3></bold>
+<ul>
+<li> The form in the Contact us page was created using code from <a href="https://www.w3schools.com/w3css/w3css_web_tmp_pizza.asp" target="_blank">W3School.</a></a></li>
+<li> <a href="https://css-tricks.com/almanac/properties/f/flex/" target="_blank">Css Tricks </a>was used to understand flex property.
+<li><a href="https://www.youtube.com/watch?v=4ykmsTpIn08" targer="_blank"> This youtube video </a>from channel Code with Harry was also used to understand flex property.
+<li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg" target="_blank">This playlist</a> from channel Code with Harry was used to understand HTML and CSS concepts.</li>
+</ul>
+<br>
+<h3><bold> Content </h3></bold>
+<ul>
+<li> <a href="https://sophieeats.nl/" target="_blank"> This website</a> called Sophie Eats was used as an inspiration for my website.</li>
+<li><a href="https://www.theindiankitchen.nl/" target="_blank">This website</a> was also used as an inspiration for text. </li>
+<br>
+<h3><bold> Media </h3></bold>
+<ul>
+<li><a href="https://www.pexels.com/nl-nl/" target="_blank">Pexels</a> was used for all stock free images.</li>
+<br>
+<h3><bold> Acknowledgements </h3></bold>
+<ul>
+<li> My mentor Jack Wachira for continuous feedback and suggestions for improvements on my projectwork. </li>
+<li>My husband Dushyant Sabharwal for his support and feedback on my projectwork. </li>
 
 
 
