@@ -58,6 +58,7 @@ body {
     font-size: 2rem;
     margin-bottom: 4rem;
     text-shadow: 2px 2px 2px #000;
+    width: fit-content;
 }
 
 .heroContent a {
