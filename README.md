@@ -179,7 +179,7 @@ Press Enter. Your local clone will be created.<br>
 
 ### **Code**
 
-- The form in the Contact us page was created using code from <a href="https://www.w3schools.com/w3css/w3css_web_tmp_pizza.asp" target="_blank">W3School.</a></a>
+- The form in the Contact us page was created using code from <a href="https://www.w3schools.com/w3css/w3css_web_tmp_pizza.asp" target="_blank">W3School.</a> & code from <a href = "https://www.youtube.com/c/MaduWebTech">MaduWebTech.</a>
 - <a href="https://css-tricks.com/almanac/properties/f/flex/" target="_blank">Css Tricks </a>was used to understand flex property.
 - <a href="https://www.youtube.com/watch?v=4ykmsTpIn08" targer="_blank"> This youtube video </a>from channel Code with Harry was also used to understand flex property.
 - <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg" target="_blank">This playlist</a> from channel Code with Harry was used to understand HTML and CSS concepts.
